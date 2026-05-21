@@ -1,0 +1,9 @@
+.app { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 1rem; border-radius: 10px; background: #f0f8ff; }
+.title { text-align: center; color: #007bff; }
+.input-form { display: flex; gap: 1rem; margin-bottom: 1rem; }
+.input-form input { flex: 1; padding: 0.5rem; border: 2px solid #007bff; border-radius: 5px; }
+.input-form button { background: #007bff; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+.input-form button:disabled { background: #6c75ff; }
+.todo-list { list-style: none; padding: 0; }
+.todo-item { padding: 0.5rem; border-bottom: 1px solid #e0e0e0; }
+.error { color: #dc3545; text-align: center; margin-bottom: 1rem; }
